@@ -32,8 +32,8 @@ const config = {
  * @param config 配置文件
  *  @param config.filterList 需要过滤的文件夹和文件，可以不提供，默认添加了javascript项目常见的过滤目录
  *  @param config.countType 需要统计的文件类型，默认为['.js','.jsx','.ts','.tsx','.vue']
- * @description 默认配置，请看包目录下的config.js
- * @description 支持国际化，请修改包目录下的i18n.js配置文件
+ * @description 默认配置，请看包目录下的./config/config.js
+ * @description 支持国际化，请修改包目录下的./lib/i18n.js配置文件
  * **/
 commentCount.run('./', config);
 
@@ -78,3 +78,6 @@ npm run count
 
 ![https://github.com/ethwillupto10000/comment-counter/blob/master/example.png](example.png)
 
+> `Base on MIT, Feel free to use anywhere you want.`
+
+> `Apperiate if you mention the origin link when using it.`

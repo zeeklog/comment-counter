@@ -14,8 +14,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const defaultConfig = require('./config');
-const i18n = require('./i18n');
+const defaultConfig = require('./config/config');
+const i18n = require('./lib/i18n');
 const typest = require('typest');
 const Spinner = require('cli-spinner').Spinner;
 const defaultFilterList = [
