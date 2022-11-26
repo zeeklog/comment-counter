@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.github
+.git
+.gitignore
+.npmignore
+.babelrc
+*.log
+node_modules
+package-lock.json
